@@ -9,7 +9,7 @@ namespace Colipu.Common.ActiveMQ
     /// <typeparam name="T">要序列化的模型</typeparam>
     public interface IMqProvider<T>
     {
-        #region 属性
+        #region 属 性
 
         /// <summary>
         /// 连接字符串
@@ -21,7 +21,7 @@ namespace Colipu.Common.ActiveMQ
         /// </summary>
         QueueTopicType QueueTopicType { get; }
 
-        #endregion 属性
+        #endregion 属 性
 
         #region 方法
 
