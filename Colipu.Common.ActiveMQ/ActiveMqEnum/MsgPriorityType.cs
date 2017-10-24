@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Colipu.Common.ActiveMQ.ActiveMqEnum
+﻿namespace Colipu.Common.ActiveMQ.ActiveMqEnum
 {
     /// <summary>
     /// 消息的优先级

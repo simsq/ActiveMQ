@@ -135,7 +135,6 @@ namespace Colipu.Common.ActiveMQ.ActiveMq
                     connection.Start();
                     Connection = connection;
                     _isConnected = true;
-
                     Debug.WriteLine($"CreateConnection:ActiveMq.ConnectionUrl:{ConnectionUrl},与服务器第一次连接成功!");
                 }
                 catch (Exception ex)
